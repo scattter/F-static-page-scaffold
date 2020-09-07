@@ -51,3 +51,14 @@ header {
   border: 5px solid transparent;
   border-top-color: #fff;
 }
+
+.description {
+  width: 60%;
+  margin: 30px auto;
+}
+.description span {
+  font-weight: 700;
+}
+.description h1 {
+  margin-bottom: 10px;
+}
