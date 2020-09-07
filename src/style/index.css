@@ -1,12 +1,14 @@
 body,
-html {
+html,
+h1 {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
 }
 
 * {
@@ -17,4 +19,35 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+header {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #3b5998;
+  color: white;
+}
+.context {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.web-log {
+  display: flex;
+  align-items: center;
+}
+.web-log button {
+  margin-left: 10px;
+  border-color: transparent;
+  background-color: #42b72a;
+}
+.context nav i {
+  display: inline-block;
+  border: 5px solid transparent;
+  border-top-color: #fff;
 }
