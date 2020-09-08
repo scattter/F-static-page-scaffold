@@ -48,6 +48,7 @@ header {
 }
 .context nav i {
   display: inline-block;
+  transform: translateY(25%);
   border: 5px solid transparent;
   border-top-color: #fff;
 }
@@ -61,4 +62,34 @@ header {
 }
 .description h1 {
   margin-bottom: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+}
+article {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 48%;
+  padding: 2%;
+  background-color: #fff;
+}
+article button {
+  margin-top: 50px;
+}
+article p {
+  text-align: center;
+}
+figure {
+  margin: 0 auto;
+}
+figure figcaption {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-weight: 700;
 }
